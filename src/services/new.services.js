@@ -4,7 +4,7 @@ async function serviceGetNews(category = "general") {
 
   articles.push(posts.articles);
 
-  const data = { articles };
+  const data = articles;
   return data;
 }
 
